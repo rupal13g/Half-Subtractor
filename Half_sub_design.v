@@ -1,4 +1,4 @@
-module halfadd (a, b, s, c);
+module halfsub (a, b, s, c);
   input a, b;
   output s, c;
   assign s = ~a&b || ~b&a;
